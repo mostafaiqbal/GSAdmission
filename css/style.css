@@ -1,0 +1,375 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#navwrap, .bg-dark, .dropdown-menu {
+    background-color: #002147!important;
+}
+#navwrap {
+    margin-bottom: 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #00142a!important;
+}
+.nav-item {
+    padding-left: 5px;
+}
+
+.navbar-nav  {
+    padding-left: 20%;
+}
+nav ul li a {
+    color: white!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+   
+
+}
+
+
+/* Div1 */
+#div1 {
+    height: 600px;
+    background: url(/photos/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div2 {
+    height: 500px;
+    background-color: rgb(46, 46, 46);
+    position: relative;
+    margin-top: -400px;
+    opacity: 0.5;
+}
+
+/* Card Section*/
+#card1 {
+    border: 3px solid gray;
+    border-radius: 30px;
+    margin-top: -385px;
+    background: url(/photos/cardImg/card1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    opacity: 0.99;
+}
+#card1:hover {
+    transform: scale(1.01);
+}
+
+#card1 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 575px; 
+    font-weight: bold;
+    font-size: 145%;
+    color:  #002147;
+    opacity: 1.5;
+}
+
+#card2 {
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-top: -250px;
+    background: url(/photos/cardImg/card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    opacity: 0.99;
+}
+#card2:hover {
+    transform: scale(1.01);
+}
+
+#card2 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px; 
+    font-weight: bold;
+    font-size: 145%;
+    color: white;
+    opacity: 1.5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #card2 {
+        margin-top: 3px;
+    }
+  }
+
+#card3 {
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-top: -250px;
+    background: url(/photos/cardImg/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    opacity: 0.99;
+}
+#card3:hover {
+    transform: scale(1.01);
+}
+
+#card3 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px; 
+    font-weight: bold;
+    font-size: 145%;
+    color: white;
+    opacity: 1.5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #card3 {
+        margin-top: 8px;
+    }
+  }
+
+  #card4 {
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-top: 65px;
+    background: url(/photos/cardImg/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 325px;
+    width: 100%;
+    opacity: 0.99;
+}
+#card4:hover {
+    transform: scale(1.01);
+}
+
+#card4 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px; 
+    font-weight: bold;
+    font-size: 145%;
+    color: white;
+    opacity: 1.5;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+#about {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 155%;
+    padding: 0 55px 10px 55px;
+}
+/* Card 3 Annimation */
+#cardrow3 {
+    height: 280px;
+    margin-top: 80px;
+    background-color: #002147;
+    color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #cardrow3  {
+        height: 100%;
+    }
+  }
+
+#cardrow3 h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 35px;
+}
+.card5 {
+    border: none;
+    background-color: #002147;
+}
+.card-title {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #cardrow3 h2 {
+        margin-bottom: 90px!important;
+    }
+    .card-title  {
+        margin-top: -90px;
+    }
+  }
+
+#title1 {
+    --animate-duration: 4s;
+}
+#title2 {
+    --animate-duration: 5s;
+}
+#title3 {
+    --animate-duration: 6s;
+}
+#title4 {
+    --animate-duration: 7s;
+}
+
+
+/*Top University Logo Slid*/
+#uniLogoSlide h2{
+    text-align:center;
+    padding: 80px;
+  }
+  /* Slider */
+  
+  .slick-slide {
+      margin: 0px 30px;
+  }
+  
+  .slick-slide img {
+      width: 75%;
+      border: 0px solid white;
+      border-radius: 35px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #uniLogoSlide h2 {
+       font-size: 90%;
+       padding-bottom: -55px;
+    }
+    .slick-slide img {
+        width: 130%;
+    }
+  }
+  
+  .slick-slider
+  {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+              user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list
+  {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+  }
+  .slick-list:focus
+  {
+      outline: none;
+  }
+  .slick-list.dragging
+  {
+      cursor: pointer;
+      cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list
+  {
+      -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+           -o-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track
+  {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+  }
+  .slick-track:before,
+  .slick-track:after
+  {
+      display: table;
+      content: '';
+  }
+  .slick-track:after
+  {
+      clear: both;
+  }
+  .slick-loading .slick-track
+  {
+      visibility: hidden;
+  }
+  
+  .slick-slide
+  {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+      max-height: px;
+  }
+  [dir='rtl'] .slick-slide
+  {
+      float: right;
+  }
+  .slick-slide img
+  {
+      display: block;
+  }
+  .slick-slide.slick-loading img
+  {
+      display: none;
+  }
+  .slick-slide.dragging img
+  {
+      pointer-events: none;
+  }
+  .slick-initialized .slick-slide
+  {
+      display: block;
+  }
+  .slick-loading .slick-slide
+  {
+      visibility: hidden;
+  }
+  .slick-vertical .slick-slide
+  {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+  }
+  .slick-arrow.slick-hidden {
+      display: none;
+  }
+
+ /* // Top University Logo Slid*/
+
+/*Footer*/
+
+footer {
+    background-color:  #002147; 
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 35px;
+}
+
+footer .row {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
