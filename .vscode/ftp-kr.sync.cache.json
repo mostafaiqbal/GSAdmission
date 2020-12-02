@@ -1,0 +1,123 @@
+{
+  "ftp://160.153.16.39@irashelgs@gsadmission.com": {
+    ".DS_Store": {
+      "type": "-",
+      "size": 8196,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    },
+    "about.php": {
+      "type": "-",
+      "size": 791,
+      "lmtime": 0,
+      "modified": false
+    },
+    "apply.php": {
+      "type": "-",
+      "size": 4557,
+      "lmtime": 0,
+      "modified": false
+    },
+    "cgi-bin": {},
+    "contact copy.php": {
+      "type": "-",
+      "size": 1240,
+      "lmtime": 0,
+      "modified": false
+    },
+    "contact.php": {
+      "type": "-",
+      "size": 4229,
+      "lmtime": 0,
+      "modified": false
+    },
+    "css": {},
+    "error_log": {
+      "type": "-",
+      "size": 1578,
+      "lmtime": 0,
+      "modified": true
+    },
+    "foundation copy.php": {
+      "type": "-",
+      "size": 77,
+      "lmtime": 0,
+      "modified": false
+    },
+    "foundation.php": {
+      "type": "-",
+      "size": 1389,
+      "lmtime": 0,
+      "modified": false
+    },
+    "includes": {},
+    "index.php": {
+      "type": "-",
+      "size": 4507,
+      "lmtime": 0,
+      "modified": false
+    },
+    "phd copy.php": {
+      "type": "-",
+      "size": 1240,
+      "lmtime": 0,
+      "modified": false
+    },
+    "phd.php": {
+      "type": "-",
+      "size": 1240,
+      "lmtime": 0,
+      "modified": false
+    },
+    "photos": {},
+    "postgraduate copy.php": {
+      "type": "-",
+      "size": 1186,
+      "lmtime": 0,
+      "modified": false
+    },
+    "postgraduate.php": {
+      "type": "-",
+      "size": 1185,
+      "lmtime": 0,
+      "modified": false
+    },
+    "service.php": {
+      "type": "-",
+      "size": 2800,
+      "lmtime": 0,
+      "modified": true
+    },
+    "undergraduate copy.php": {
+      "type": "-",
+      "size": 77,
+      "lmtime": 0,
+      "modified": false
+    },
+    "undergraduate.php": {
+      "type": "-",
+      "size": 1012,
+      "lmtime": 0,
+      "modified": false
+    },
+    "univer": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "universities.php": {
+      "type": "-",
+      "size": 3325,
+      "lmtime": 0,
+      "modified": true
+    }
+  },
+  "$version": 1
+}

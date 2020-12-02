@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- Annimate.CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+    <!-- Font Awesom -->
+    <script src="https://kit.fontawesome.com/9022b3bac6.js" crossorigin="anonymous"></script>
+       
     <title>GS Admissioin</title>
   </head>
   <body>
       <!-- Nav Bar-->
       <div class="container-fluid" id="navwrap">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
-                <a class="navbar-brand" href="index.php">GSA</a>
+                <a class="navbar-brand" href="index.php"> <img src="/photos/logos/logo31.png" alt=""> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,7 +30,9 @@
                       <li class="nav-item">
                       <a class="nav-link" href="#">Our Services</a>
                       </li>
-                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Univesities</a>
+                      </li>
                       <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Courses
@@ -38,12 +42,6 @@
                               <a class="dropdown-item" href="undergraduate.php">Undergraduate Courses</a>
                               <a class="dropdown-item" href="postgraduate.php">Postgraduate Courses</a>
                           </div>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Univesities</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Why UK</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="#">Contact</a>
@@ -70,7 +68,7 @@
               <div class="col-md-1"></div>
               <div class="col-md-5 col-sm-12">
                 <div class="card" id="card1">
-                 <p> Explore the Career Options </p>
+                 <p> Explore the Opportunites</p>
                 </div>
               </div>
               <div class="col-sm-12 col-md-3">
@@ -80,7 +78,7 @@
               </div>
               <div class="col-sm-12 col-md-3">
                 <div class="card" id="card3">
-                  <p> Undergraduate Couses</p>
+                  <p> Undergraduate Courses</p>
                 </div>
               </div>
           </div>
@@ -92,7 +90,7 @@
             <div class="row">
               <div class="col-sm-6 order-sm-12">
                 <div class="card" id="card4">
-                  <p> Postgraduate Couses</p>
+                  <p> Postgraduate Courses</p>
                 </div>
               </div>
               <div class="col-sm-6 order-sm-1">
@@ -143,29 +141,55 @@
 
       <!--Footer-->
           <footer class="container-fluid">
+            <div class="container">
                 <div class="row">
-                  <div class="col-4 col-md-4 col-sm-12">
+                  <div class="col-md-3 col-sm-12">
                     <ul>
                       <li> <a href="about.php">About</a> </li>
                       <li> <a href="terms.php">Terms &amp; Conditions </a> </li>
                       <li> <a href="privacy.php">Privacy Policy</a> </li>
+                      <li> <a href="blog.php">Resources</a> </li>
                     </ul>
                   </div>
-                  <div class="col-4 col-md-4 col-sm-12">
+                  <div class="col-md-3 col-sm-12 address">
                     <ul>
-                      <li> <a href="about.php">About</a> </li>
-                      <li> <a href="terms.php">Terms &amp; Conditions </a> </li>
-                      <li> <a href="privacy.php">Privacy Policy</a> </li>
+                      <li> 
+                        <b>United Kingdom Office</b> <br/>
+                          Building 3, Hydepark Hayes <br/>
+                          London UB3 4AZ, UK <br/>
+                          <i class="far fa-envelope"> info@gsadmission.com</i>
+                          <i class="fas fa-phone-alt"> +447548067617</i>
+                          <i class="fab fa-whatsapp-square"> +447548067617</i>
+                      </li>
                     </ul>
                  </div>
-                  <div class="col-4 col-md-4 col-sm-12">
+                 <div class="col-md-3 col-sm-12 address">
                     <ul>
-                      <li> <a href="about.php">About</a> </li>
-                      <li> <a href="terms.php">Terms &amp; Conditions </a> </li>
-                      <li> <a href="privacy.php">Privacy Policy</a> </li>
+                      <li> 
+                        <b>Baridhara Office</b> <br/>
+                          House 507, 1st Floor, Lane 9, <br/>
+                          Baridhara DOHS, Dhaka Bangladesh.
+                          <i class="far fa-envelope"> baridhara@gsadmission.com</i>
+                          <i class="fas fa-phone-alt"> +8801755306021</i>
+                          <i class="fab fa-whatsapp-square"> +8801755306021</i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-12 address">
+                    <ul>
+                      <li> 
+                        <b>Chittagong Office</b> <br/>
+                          Building 3, Hydepark Hayes <br/>
+                          London UB3 4AZ
+                          <i class="far fa-envelope"> info@gsadmission.com</i>
+                          <i class="fas fa-phone-alt"> +447548067617</i>
+                          <i class="fab fa-whatsapp-square"> +447548067617</i>
+                      </li>
                     </ul>
                   </div>
                 </div>
+            </div>
+            <div id="copyright">	&#169; GS Admissioin</div>
           </footer>
       <!-- //Footer-->
         
@@ -212,6 +236,6 @@
         </script>
       <!-- //Top Univestities Logos  SLIDE Script-->
 
-
+   
   </body>
 </html>

@@ -1,3 +1,6 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 html,body{
     margin: 0;
     padding: 0;
@@ -19,19 +22,32 @@ html,body{
 .navbar-nav  {
     padding-left: 20%;
 }
+.navbar-brand {
+    max-height: 40px;
+    overflow: visible;
+}
+.navbar-brand img {
+    position: relative;
+    top: -25px;
+    width: 225px;
+    height:100%;
+    z-index: 1;
+}
 nav ul li a {
     color: white!important;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
-   
-
 }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    nav ul {
+        margin-top: 38px;
+    }
+  }
 
 /* Div1 */
 #div1 {
     height: 600px;
-    background: url(/photos/bg2.jpg);
+    background: url(/photos/bg/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,6 +60,9 @@ nav ul li a {
 }
 
 /* Card Section*/
+.row a:hover {
+    text-decoration: none;
+}
 #card1 {
     border: 3px solid gray;
     border-radius: 30px;
@@ -166,10 +185,10 @@ h3 {
 }
 #about {
     text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
     line-height: 155%;
-    padding: 0 55px 10px 55px;
+    padding: 0 65px 10px 65px;
 }
 /* Card 3 Annimation */
 #cardrow3 {
@@ -187,7 +206,7 @@ h3 {
 
 #cardrow3 h2 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 35px;
 }
 .card5 {
@@ -198,7 +217,7 @@ h3 {
     text-align: center;
     vertical-align: middle;
     line-height: 200px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -236,9 +255,9 @@ h3 {
   }
   
   .slick-slide img {
-      width: 75%;
+      width: 80%;
       border: 0px solid white;
-      border-radius: 35px;
+      border-radius: 20px;
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     #uniLogoSlide h2 {
@@ -246,7 +265,7 @@ h3 {
        padding-bottom: -55px;
     }
     .slick-slide img {
-        width: 130%;
+        width: 80%;
     }
   }
   
@@ -364,9 +383,11 @@ h3 {
 
 footer {
     background-color:  #002147; 
-    font-family:  Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:whitesmoke;
     margin-top: 35px;
+    margin-top: 150px;
+    font-size: 15px;
 }
 
 footer .row {
@@ -378,11 +399,138 @@ footer ul li {
     list-style-type: none;
 }
 footer ul li a {
-    font-size: 14px;
-    color: white;
+    font-size: 15px;
+    color: whitesmoke;
     text-decoration: none;
 }
 footer ul li a:hover {
-    color: white;
+    color: yellowgreen;
     text-decoration: none;
 }
+.wap {
+    width: 18px;
+}
+.address i {
+    font-size: 15px;
+    font-weight: bold;
+}
+#copyright {
+    text-align: center;
+}
+/*service page*/
+
+#serviceHeading {
+   margin-top: 30px;
+   font-size: 120%;
+   font-weight: bold;
+   text-align: center;
+}
+
+#serviceImg {
+    background: url(/photos/bg/service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border: 3px solid;
+    border-radius: 10px;
+}
+#serviceText {
+    padding-left: 25px;
+    text-align: justify;
+    padding-right: 15px;
+}
+
+/*Uni page*/
+#uni {
+    margin-top: 100px;
+}
+#uni h2 {
+    font-size: 155%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+#uni ul li {
+    list-style-type: none;
+}
+#uni .row ul li {
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #uni .row ul li {
+        text-align: center;
+    }
+}
+
+/* foundation page*/
+#aboutus {
+    background: url(/photos/bg/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    z-index: -1;
+}
+#explore {
+    background: url(/photos/bg/explore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    z-index: -1;
+}
+#applyNowButton {
+    font-size: 20px!important;
+    text-align: center;
+    text-transform: uppercase;
+}
+#foundation1 {
+        background: url(/photos/bg/fimg2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    #undergraduate {
+        background: url(/photos/bg/underimg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        z-index: -1;
+        opacity: 0.8;
+    }
+
+    #postgraduate {
+        background: url(/photos/bg/post1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    #phd {
+        background: url(/photos/bg/phd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        z-index: -1;
+    }
+    #contact {
+        background: url(/photos/bg/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1000px;
+        z-index: -1;
+        margin-bottom: -220px;
+    }
+
+    #contacth1 {
+        margin-top: 100px;
+    }
